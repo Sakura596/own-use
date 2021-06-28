@@ -79,12 +79,6 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China.yaml
     path: ./Rules/DIRECT/China
     interval: 86400
-  🎯国内域名:
-    type: http
-    behavior: ipcidr
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
-    path: ./Rules/DIRECT/ChinaIPs
-    interval: 86400
   🚀代理:
     type: http
     behavior: classical
