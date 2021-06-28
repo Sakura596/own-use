@@ -105,7 +105,7 @@ rules:
 - RULE-SET,⛔️广告拦截域名,⛔️ 广告拦截
 - RULE-SET,🛡️隐私防护,🛡️ 隐私防护
 - RULE-SET,🎯国内网站,DIRECT
-- RULE-SET,🎯国内网站域名,DIRECT
+- RULE-SET,🎯国内域名,DIRECT
 - RULE-SET,📥下载,📥 下载
 - RULE-SET,📥PT下载,📥 下载
 - RULE-SET,Ⓜ️微软服务,Ⓜ️ 微软服务
