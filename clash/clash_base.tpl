@@ -81,8 +81,8 @@ rule-providers:
     interval: 86400
   🎯国内域名:
     type: http
-    behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Clash/ChinaIPs/ChinaIPs_Classical.yaml
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
     path: ./Rules/DIRECT/ChinaIPs
     interval: 86400
   🚀代理:
