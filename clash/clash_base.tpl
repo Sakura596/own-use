@@ -73,12 +73,6 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia.yaml
     path: ./Rules/Media/GlobalMedia
     interval: 86400
-  🎯国内网站:
-    type: http
-    behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China.yaml
-    path: ./Rules/DIRECT/China
-    interval: 86400
   🚀代理:
     type: http
     behavior: classical
@@ -98,8 +92,6 @@ rules:
 - RULE-SET,⛔️广告拦截,⛔️ 广告拦截
 - RULE-SET,⛔️广告拦截域名,⛔️ 广告拦截
 - RULE-SET,🛡️隐私防护,🛡️ 隐私防护
-- RULE-SET,🎯国内网站,DIRECT
-- RULE-SET,🎯国内域名,DIRECT
 - RULE-SET,📥下载,📥 下载
 - RULE-SET,📥PT下载,📥 下载
 - RULE-SET,Ⓜ️微软服务,Ⓜ️ 微软服务
