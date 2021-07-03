@@ -1,0 +1,19 @@
+- RULE-SET,Unbreak,DIRECT
+- RULE-SET,🖥本地网络,DIRECT
+- RULE-SET,🛑反劫持,⛔️ 广告拦截
+- RULE-SET,⛔️广告拦截,⛔️ 广告拦截
+- RULE-SET,🛡️隐私防护,🛡️ 隐私防护
+- RULE-SET,Ⓜ️微软服务,Ⓜ️ 微软服务
+- RULE-SET,🍎苹果服务,🍎 苹果服务
+- RULE-SET,🎮游戏平台,🎮 游戏平台
+- RULE-SET,📹油管视频,📹 油管视频
+- RULE-SET,🎥NETFLIX,🎥 NETFLIX
+- RULE-SET,🎥Hulu,🌍 Hulu
+- RULE-SET,📺亚洲媒体,📺 港台番剧
+- RULE-SET,🌍国外媒体,🌍 国外媒体
+- RULE-SET,🚀代理,🔰 节点选择
+- RULE-SET,🚀代理域名,🔰 节点选择
+- RULE-SET,🎯China,🎯 全球直连
+- RULE-SET,🎯ChinaIP,🎯 全球直连
+- GEOIP,CN,DIRECT
+- MATCH,🐟 漏网之鱼
