@@ -1,4 +1,4 @@
-
+proxy-groups: ~
 rule-providers:
    Unbreak:
     type: http
