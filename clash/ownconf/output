@@ -1,4 +1,4 @@
 custom_proxy_group=!!import:https://raw.githubusercontent.com/Sakura596/own-use/master/clash/ownconf/groups
-enable_rule_generator=false
+enable_rule_generator=true
 overwrite_original_rules=true
 ruleset=!!import:https://raw.githubusercontent.com/Sakura596/own-use/master/clash/ownconf/rules
