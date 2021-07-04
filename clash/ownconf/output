@@ -1,7 +1,5 @@
 custom_proxy_group=!!import:https://raw.githubusercontent.com/Sakura596/own-use/master/clash/ownconf/groups
 enable_rule_generator=true
 overwrite_original_rules=true
-rule-providers:import:https://raw.githubusercontent.com/Sakura596/own-use/master/clash/ownconf/rule-providers
-rules:import:https://raw.githubusercontent.com/Sakura596/own-use/master/clash/ownconf/rules
-add_emoji=true
-remove_old_emoji=false
+rule-providers:https://raw.githubusercontent.com/Sakura596/own-use/master/clash/ownconf/rule-providers
+rules:https://raw.githubusercontent.com/Sakura596/own-use/master/clash/ownconf/rules

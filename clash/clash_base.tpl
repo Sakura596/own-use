@@ -1,3 +1,28 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+
+dns:
+  enable: true
+  listen: 0.0.0.0:6653
+  ipv6: false
+  enhanced-mode: redir-host
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - tls://one.one.one.one:853
+    - tls://dns.google:853
+    - https://dns.twnic.tw/dns-query
+    - https://dns.adguard.com/dns-query
+    - https://doh.dns.sb/dns-query
+    
 
 proxy-groups: ~
 rule-providers:
