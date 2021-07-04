@@ -1,19 +1,18 @@
-- RULE-SET,Unbreak,DIRECT
-- RULE-SET,🖥本地网络,DIRECT
-- RULE-SET,🛑反劫持,⛔️ 广告拦截
-- RULE-SET,⛔️广告拦截,⛔️ 广告拦截
-- RULE-SET,🛡️隐私防护,🛡️ 隐私防护
-- RULE-SET,Ⓜ️微软服务,Ⓜ️ 微软服务
-- RULE-SET,🍎苹果服务,🍎 苹果服务
-- RULE-SET,🎮游戏平台,🎮 游戏平台
-- RULE-SET,📹油管视频,📹 油管视频
-- RULE-SET,🎥NETFLIX,🎥 NETFLIX
-- RULE-SET,🎥Hulu,🌍 Hulu
-- RULE-SET,📺亚洲媒体,📺 港台番剧
-- RULE-SET,🌍国外媒体,🌍 国外媒体
-- RULE-SET,🚀代理,🔰 节点选择
-- RULE-SET,🚀代理域名,🔰 节点选择
-- RULE-SET,🎯China,🎯 全球直连
-- RULE-SET,🎯ChinaIP,🎯 全球直连
-- GEOIP,CN,DIRECT
-- MATCH,🐟 漏网之鱼
+🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+🎯 全球直连,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list
+⛔️ 广告拦截,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list
+⛔️ 广告拦截,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list
+🛡️ 隐私防护,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list
+Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+🍎 苹果服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+🎮 游戏平台,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Steam.list
+📹 油管视频,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list
+🎥 NETFLIX,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list
+🌍 Hulu,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Hulu.list
+📺 港台番剧,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list
+🌍 国外媒体,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list
+🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+🎯 全球直连,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
+🎯 全球直连,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list
+🎯 全球直连,[]GEOIP,CN
+🐟 漏网之鱼,[]FINAL
