@@ -2,4 +2,4 @@ custom_proxy_group=!!import:https://raw.githubusercontent.com/Sakura596/own-use/
 enable_rule_generator=true
 overwrite_original_rules=true
 ruleset=!!import:https://raw.githubusercontent.com/Sakura596/own-use/master/clash/ownconf/rules
-rename_node=!!import:https://raw.githubusercontent.com/Sakura596/own-use/master/clash/ownconf/rename
+rename=!!import:https://raw.githubusercontent.com/Sakura596/own-use/master/clash/ownconf/rename
