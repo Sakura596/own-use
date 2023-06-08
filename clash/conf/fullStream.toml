@@ -1,0 +1,18 @@
+[common]
+exclude_remarks = (到期|剩余流量|时间|官网|产品|官網)
+
+[[custom_groups]]
+import = "../base/groups.toml"
+
+[ruleset]
+overwrite_original_rules=true
+
+[[rulesets]]
+import = "../base/rulesets.toml"
+
+[emojis]
+add_emoji=true
+remove_old_emoji=true
+
+[[emojis.emoji]]
+import = "../base/emoji.toml"

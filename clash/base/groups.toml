@@ -1,0 +1,248 @@
+[[custom_groups]]
+name = "🔰 节点选择"
+type = "select"
+rule = 
+[
+    "[]🇭🇰 香港",
+    "[]🇸🇬 新加坡",
+    "[]🇹🇼 台湾",
+    "[]🇯🇵 日本",
+    "[]🇰🇷 韩国",
+    "[]🇺🇲 美国",
+    "[]🎦 视频节点",
+    "[]🎯 全球直连"
+]
+
+[[custom_groups]]
+name = "Ⓜ️ 微软服务"
+type = "select"
+rule = 
+[
+    "[]🎯 全球直连",
+    "[]🔰 节点选择"
+]
+
+[[custom_groups]]
+name = "🍎 苹果服务"
+type = "select"
+rule = 
+[
+    "[]🎯 全球直连",
+    "[]🇭🇰 香港",
+    "[]🇯🇵 日本",
+    "[]🇺🇲 美国",
+    "[]🇹🇼 台湾",
+    "[]🔰 节点选择"
+
+]
+
+[[custom_groups]]
+name = "🎮 游戏平台"
+type = "select"
+rule = 
+[
+    "[]DIRECT",
+    "[]🔰 节点选择",
+    "[]🇭🇰 香港",
+    "[]🇯🇵 日本",
+    "[]🇺🇲 美国",
+    "[]🛒 低价购物"
+]
+
+[[custom_groups]]
+name = "📺 港台番剧"
+type = "select"
+rule = 
+[
+    "[]🎯 全球直连",
+    "[]🔰 节点选择",
+    "[]🇭🇰 香港",
+    "[]🇹🇼 台湾"
+]
+
+[[custom_groups]]
+name = "📹 油管视频"
+type = "select"
+rule = 
+[
+    "[]🇭🇰 香港",
+    "[]🇸🇬 新加坡",
+    "[]🇹🇼 台湾",
+    "[]🇯🇵 日本",
+    "[]🇰🇷 韩国",
+    "[]🇺🇲 美国",
+    "[]🎦 视频节点",
+    "[]🌍 其他地区",
+    "[]🔰 节点选择"
+]
+
+[[custom_groups]]
+name = "🎥 NETFLIX"
+type = "select"
+rule = 
+[
+    "[]🇭🇰 香港",
+    "[]🇸🇬 新加坡",
+    "[]🇹🇼 台湾",
+    "[]🇯🇵 日本",
+    "[]🇰🇷 韩国",
+    "[]🇺🇲 美国",
+    "[]🌍 其他地区",
+    "[]🔰 节点选择"
+]
+
+[[custom_groups]]
+name = "🌍 Hulu"
+type = "select"
+rule = 
+[
+    "[]🇺🇲 美国",
+    "[]🔰 节点选择"
+]
+
+[[custom_groups]]
+name = "🎵 Spotify"
+type = "select"
+rule = 
+[
+    "[]🇭🇰 香港",
+    "[]🇸🇬 新加坡",
+    "[]🇹🇼 台湾",
+    "[]🇯🇵 日本",
+    "[]🇰🇷 韩国",
+    "[]🇺🇲 美国",
+    "[]🔰 节点选择"
+]
+
+[[custom_groups]]
+name = "🐹 Twitch"
+type = "select"
+rule = 
+[
+    "[]🇭🇰 香港",
+    "[]🇸🇬 新加坡",
+    "[]🇹🇼 台湾",
+    "[]🎦 视频节点",
+    "[]🔰 节点选择"
+]
+
+[[custom_groups]]
+name = "🌍 国外媒体"
+type = "select"
+rule = 
+[
+    "[]🇭🇰 香港",
+    "[]🇸🇬 新加坡",
+    "[]🇹🇼 台湾",
+    "[]🇯🇵 日本",
+    "[]🇰🇷 韩国",
+    "[]🇺🇲 美国",
+    "[]🌍 其他地区",
+    "[]🔰 节点选择"
+]
+
+[[custom_groups]]
+name = "🇭🇰 香港"
+type = "select"
+rule = ["(?i:HK|Hong.*?Kong|HKT|HKBN|HGC|WTT|CMI|香港)"]
+
+[[custom_groups]]
+name = "🇸🇬 新加坡"
+type = "select"
+rule = ["(SG|狮城|坡)"]
+
+[[custom_groups]]
+name = "🇹🇼 台湾"
+type = "select"
+rule = ["(台|TW)"]
+
+[[custom_groups]]
+name = "🇯🇵 日本"
+type = "select"
+rule = ["(JP|Japan|日本|沪日)"]
+
+[[custom_groups]]
+name = "🇰🇷 韩国"
+type = "select"
+rule = ["(KR|Korea|KOR|首尔|韩|韩国|韓)"]
+
+[[custom_groups]]
+name = "🇺🇲 美国"
+type = "select"
+rule = ["(美|中美|沪美|US|纽约|波特兰|旧金山|圣何塞)"]
+
+[[custom_groups]]
+name = "🌍 其他地区"
+type = "select"
+rule = ["(澳门|印度|加拿大|英国|澳大|悉尼|荷兰|越南|德国|南非|意大利|西班牙|匈牙利|泰国|马来西亚|以色列|捷克)"]
+
+[[custom_groups]]
+name = "🛒 低价购物"
+type = "select"
+rule = ["(阿根廷|土耳其|RU|俄罗斯|菲律宾|巴西|购物)"]
+
+[[custom_groups]]
+name = "🎦 视频节点"
+type = "select"
+rule = ["(HK|US|JP|-D)|([\u4e00-\u9fa5]{5,6})"]
+
+[[custom_groups]]
+name = "📲 电报消息"
+type = "select"
+rule = 
+[
+    "[]🇭🇰 香港",
+    "[]🇸🇬 新加坡",
+    "[]🇹🇼 台湾",
+    "[]🇯🇵 日本",
+    "[]🇰🇷 韩国",
+    "[]🇺🇲 美国",
+    "[]🎦 视频节点",
+    "[]🔰 节点选择"
+]
+
+[[custom_groups]]
+name = "Ⓜ️ 微软云盘"
+type = "select"
+rule = 
+[
+    "🎯 全球直连",
+    "[]🔰 节点选择",
+    "[]🇭🇰 香港",
+    "[]🇸🇬 新加坡",
+    "[]🇹🇼 台湾",
+    "[]🇯🇵 日本",
+    "[]🇰🇷 韩国",
+    "[]🇺🇲 美国",
+    "[]🎦 视频节点"
+]
+
+[[custom_groups]]
+name = "🎯 全球直连"
+type = "select"
+rule = ["[]DIRECT"]
+
+[[custom_groups]]
+name = "⛔️ 广告拦截"
+type = "select"
+rule = ["[]REJECT", "[]DIRECT"]
+
+[[custom_groups]]
+name = "🛡️ 隐私防护"
+type = "select"
+rule = ["[]REJECT", "[]DIRECT"]
+
+[[custom_groups]]
+name = "🐟 漏网之鱼"
+type = "select"
+rule = [
+    "[]🔰 节点选择",
+    "[]🇭🇰 香港",
+    "[]🇸🇬 新加坡",
+    "[]🇹🇼 台湾",
+    "[]🇯🇵 日本",
+    "[]🇰🇷 韩国",
+    "[]🇺🇲 美国",
+    "[]🎦 视频节点",
+    "🎯 全球直连"
+]
