@@ -198,7 +198,6 @@ emoji = "🇰🇬"
 match = "(柬埔寨|Cambodia)"
 emoji = "🇰🇭"
 
-
 [[emoji]]
 match = "(North.*?Korea|朝鲜)"
 emoji = "🇰🇵"
@@ -347,21 +346,17 @@ emoji = "🇵🇷"
 match = "(Ecuador|厄瓜多尔)"
 emoji = "🇪🇨"
 
-
 [[emoji]]
 match = "(Morocco|摩洛哥)"
 emoji = "🇲🇦"
-
 
 [[emoji]]
 match = "(Nigeria|尼日利亚)"
 emoji = "🇳🇬"
 
-
 [[emoji]]
 match = "(Nepal|尼泊尔)"
 emoji = "🇳🇵"
-
 
 [[emoji]]
 match = "(Bengal|孟加拉)"
