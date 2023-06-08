@@ -16,11 +16,11 @@ ruleset = "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/
 group = "⛔️ 广告拦截"
 ruleset = "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list"
 
-# 自定义直连
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "https://ghproxy.com/https://raw.githubusercontent.com/Sakura596/own-use/master/clash/rules/custom_rules.list"
-type = "clash-domain"
+# # 自定义直连
+# [[rulesets]]
+# group = "🎯 全球直连"
+# ruleset = "https://ghproxy.com/https://raw.githubusercontent.com/Sakura596/own-use/master/clash/rules/custom_rules.list"
+# type = "clash-domain"
 
 [[rulesets]]
 group = "Ⓜ️ 微软服务"
