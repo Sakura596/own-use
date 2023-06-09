@@ -1,11 +1,9 @@
+version = 1
 [common]
 exclude_remarks = ["(到期|剩余流量|时间|官网|产品|官網)"]
 
 [[custom_groups]]
 import = "https://ghproxy.com/https://raw.githubusercontent.com/Sakura596/own-use/master/clash/base/groups.toml"
-
-[ruleset]
-overwrite_original_rules = true
 
 [[rulesets]]
 import = "https://ghproxy.com/https://raw.githubusercontent.com/Sakura596/own-use/master/clash/base/rulesets.toml"
