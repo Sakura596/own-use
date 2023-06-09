@@ -80,29 +80,29 @@ name = "🌍 Hulu"
 type = "select"
 rule = ["[]🇺🇲 美国", "[]🔰 节点选择"]
 
-# [[custom_groups]]
-# name = "🎵 Spotify"
-# type = "select"
-# rule = [
-#     "[]🇭🇰 香港",
-#     "[]🇸🇬 新加坡",
-#     "[]🇹🇼 台湾",
-#     "[]🇯🇵 日本",
-#     "[]🇰🇷 韩国",
-#     "[]🇺🇲 美国",
-#     "[]🔰 节点选择"
-# ]
+[[custom_groups]]
+name = "🎵 Spotify"
+type = "select"
+rule = [
+    "[]🇭🇰 香港",
+    "[]🇸🇬 新加坡",
+    "[]🇹🇼 台湾",
+    "[]🇯🇵 日本",
+    "[]🇰🇷 韩国",
+    "[]🇺🇲 美国",
+    "[]🔰 节点选择"
+]
 
-# [[custom_groups]]
-# name = "🐹 Twitch"
-# type = "select"
-# rule = [
-#     "[]🇭🇰 香港",
-#     "[]🇸🇬 新加坡",
-#     "[]🇹🇼 台湾",
-#     "[]🎦 视频节点",
-#     "[]🔰 节点选择"
-# ]
+[[custom_groups]]
+name = "🐹 Twitch"
+type = "select"
+rule = [
+    "[]🇭🇰 香港",
+    "[]🇸🇬 新加坡",
+    "[]🇹🇼 台湾",
+    "[]🎦 视频节点",
+    "[]🔰 节点选择"
+]
 
 [[custom_groups]]
 name = "🌍 国外媒体"

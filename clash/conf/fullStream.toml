@@ -1,5 +1,9 @@
-[common]
-exclude_remarks = ["(到期|剩余流量|时间|官网|产品|官網)"]
+[custom]
+enable_rule_generator = false
+overwrite_original_rules = false
+exclude_remarks = ["(到期|剩余流量|时间|官网|产品|官網|重置)"]
+add_emoji = true
+remove_old_emoji = true
 
 [[custom_groups]]
 import = "https://ghproxy.com/https://raw.githubusercontent.com/Sakura596/own-use/master/clash/base/groups.toml"
@@ -7,9 +11,5 @@ import = "https://ghproxy.com/https://raw.githubusercontent.com/Sakura596/own-us
 [[rulesets]]
 import = "https://ghproxy.com/https://raw.githubusercontent.com/Sakura596/own-use/master/clash/base/rulesets.toml"
 
-[emojis]
-add_emoji = true
-remove_old_emoji = true
-
-[[emojis.emoji]]
-import = "https://ghproxy.com/https://raw.githubusercontent.com/Sakura596/own-use/master/clash/base/emoji.toml"
+# [[emojis.emoji]]
+# import = "https://ghproxy.com/https://raw.githubusercontent.com/Sakura596/own-use/master/clash/base/emoji.toml"
